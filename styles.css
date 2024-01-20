@@ -1,0 +1,144 @@
+
+    .outfit-light {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .outfit-regular {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .outfit-semibold {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .outfit-bold {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    :root {
+        --Softblue: hsl(215, 51%, 70%);
+        --Cyan: hsl(178, 100%, 50%);
+        --MainBG: hsl(217, 54%, 11%);
+        --CardBG: hsl(216, 50%, 16%);
+        --Line: hsl(215, 32%, 27%);
+    }
+
+    html, body {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--MainBG);
+        height: 100svh;
+    }
+
+    .shadow {
+        background-color: rgba(0,0,0,0.04);
+        border-radius: 3rem;
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        padding: 3rem;
+        padding-bottom: 3rem;
+        padding-top: 1rem;
+        margin-top: 1rem;
+    }
+
+    .card {
+        background-color: var(--CardBG);
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding: 1.6rem;
+        max-width: 300px;
+        font-family: 'Inter-Regular';
+        border-radius: 1rem;
+        gap: 1rem;
+        font-size: 18px;
+        box-shadow: 1px 18px 0px 16px rgba(0,0,0,0.05);
+        -webkit-box-shadow: 1px 18 0px 16px rgba(0,0,0,0.05);
+        -moz-box-shadow: 1px 18 0px 16px rgba(0,0,0,0.05);
+    }
+
+    .banner {
+        height: 300px;
+        width: 300px;
+        margin-bottom: .3rem;
+    }
+
+    .heading {
+        color: white;
+        font-size: 1.4rem;
+    }
+
+    .description {
+        display: flex;
+        flex-wrap: wrap;
+        color:var(--Softblue);
+        margin-bottom: .3rem;
+        font-size: 1.12rem;
+        line-height: 1.6;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1rem;
+    }
+    
+    .eth {
+        display: flex;
+        flex-direction: row;
+        color: cyan;
+        gap: .4rem;
+    }
+
+    .days {
+        display: flex;
+        flex-direction: row;
+        color:var(--Softblue);
+        gap: .4rem;
+    }
+
+    .line {
+        border-bottom: 1px solid var(--Line);
+    }
+
+    .creator {
+        color:var(--Softblue);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: .3rem;
+        font-size: 1rem;
+    }
+
+    .avatar {
+        height: 30px;
+        border: 20px;
+        border-radius: 50%;
+        border: 1px solid white;
+        margin: .3rem;
+    }
+
+    .namae {
+        color: white;
+    }
